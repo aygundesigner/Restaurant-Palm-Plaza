@@ -1,0 +1,607 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#Header1 {
+  background-image: url(../images/pexels-photo-2323398.jpeg);
+  background-size: cover;
+  background-position: center center;
+  padding: 30px 0 50px 0;
+  position: relative;
+}
+
+#Header1 .color-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .8;
+  position: absolute;
+  bottom: 2px;
+}
+
+#Header1 .Bar-icon {
+  display: none;
+}
+
+#Header1 .Bar-icon i {
+  color: white;
+  font-size: 20px;
+}
+
+#Header1 .logo {
+  z-index: 1;
+}
+
+#Header1 .logo img {
+  width: 60%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#Header1 .menu {
+  z-index: 1;
+}
+
+#Header1 .menu ul {
+  list-style: none;
+  margin: 0 !important;
+}
+
+#Header1 .menu ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#Header1 .button {
+  display: block;
+  z-index: 1;
+}
+
+#Header1 .button a {
+  font-size: 15px;
+  padding: 8px 20px;
+  border: 1px solid #c59d5f;
+  background-color: transparent;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+#Header1 .button a:hover {
+  color: white;
+  background-color: #c59d5f;
+  border: 1px solid #c59d5f;
+}
+
+#Header1 .txt {
+  text-align: center;
+  margin: 200px 0;
+  z-index: 1;
+}
+
+#Header1 .txt h1 {
+  font-size: 45px;
+  color: #c59d5f;
+  font-family: 'Great Vibes', cursive;
+}
+
+#Header1 .txt h2 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 62px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+#Header1 .txt p {
+  color: white;
+  font-size: 18px;
+}
+
+@media (max-width: 576px) {
+  #Header1 {
+    padding: 30px 0 50px 0;
+  }
+  #Header1 .menu {
+    display: none !important;
+  }
+  #Header1 .Bar-icon {
+    display: block !important;
+    z-index: 1;
+  }
+  #Header1 .logo img {
+    width: 60%;
+    height: 100%;
+  }
+  #Header1 .button {
+    display: none;
+  }
+  #Header1 .txt {
+    text-align: center;
+    margin: 200px 0;
+    z-index: 1;
+  }
+  #Header1 .txt h1 {
+    font-size: 30px;
+    color: #c59d5f;
+    font-family: 'Great Vibes', cursive;
+  }
+  #Header1 .txt h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 42px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  #Header1 .txt p {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  #Header1 {
+    padding: 30px 0 50px 0;
+  }
+  #Header1 .menu {
+    display: none !important;
+  }
+  #Header1 .Bar-icon {
+    display: block !important;
+    z-index: 1;
+  }
+  #Header1 .logo img {
+    width: 60%;
+    height: 100%;
+  }
+  #Header1 .button {
+    display: none;
+  }
+  #Header1 .txt {
+    text-align: center;
+    margin: 200px 0;
+    z-index: 1;
+  }
+  #Header1 .txt h1 {
+    font-size: 30px;
+    color: #c59d5f;
+    font-family: 'Great Vibes', cursive;
+  }
+  #Header1 .txt h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 42px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  #Header1 .txt p {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 998px) {
+  #Header1 .menu {
+    display: none !important;
+  }
+  #Header1 .Bar-icon {
+    display: block !important;
+    z-index: 1;
+  }
+  #Header1 .button {
+    display: none;
+  }
+  #Header1 .txt {
+    text-align: center;
+    margin: 200px 0;
+    z-index: 1;
+  }
+  #Header1 .txt h1 {
+    font-size: 30px;
+    color: #c59d5f;
+    font-family: 'Great Vibes', cursive;
+  }
+  #Header1 .txt h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 42px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  #Header1 .txt p {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #Header .menu {
+    display: none;
+  }
+  #Header .button {
+    display: none !important;
+  }
+  #Header .Bar-icon {
+    display: block !important;
+    z-index: 1;
+  }
+}
+
+#Body1 {
+  background-image: url(https://demo.zozothemes.com/palmplaza/wp-content/uploads/sites/41/2019/09/about-bg-1.png?id=6705);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+}
+
+#Body1 .icon {
+  text-align: center;
+  margin: 60px 0;
+}
+
+#Body1 .icon .photo img {
+  opacity: .7;
+}
+
+#Body1 .icon .photo p {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+#Body1 .photo1 {
+  text-align: center;
+}
+
+#Body1 .photo1 img {
+  width: 20%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#Body1 .txt {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#Body1 .txt h1 {
+  color: black;
+  font-size: 50px;
+  font-family: 'Yesteryear', cursive;
+}
+
+#Body1 .txt p {
+  color: #777777;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+#Body1 .txt button {
+  font-size: 15px;
+  padding: 8px 20px;
+  border: 1px solid #c59d5f;
+  background-color: transparent;
+  font-weight: 600;
+  color: #c59d5f;
+}
+
+@media (max-width: 576px) {
+  #Body1 .txt {
+    margin: 65px 0;
+  }
+  #Body1 .icon {
+    margin-top: 0 !important;
+  }
+  #Body1 .icon .photo {
+    margin: 10px 0;
+  }
+  #Body1 .icon .photo img {
+    width: 40%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: .7;
+  }
+  #Body1 .icon .photo p {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px !important;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #Body1 .txt {
+    margin: 65px 0;
+  }
+  #Body1 .icon {
+    margin-top: 0 !important;
+  }
+  #Body1 .icon .photo {
+    margin: 10px 0;
+  }
+  #Body1 .icon .photo img {
+    width: 40%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: .7;
+  }
+  #Body1 .icon .photo p {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px !important;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+}
+
+#Body2 {
+  background-image: url(https://demo.zozothemes.com/palmplaza/wp-content/uploads/sites/41/2019/10/pp_slider1-bg.jpg?id=7459);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 60px 0 80px 0;
+}
+
+#Body2 .txt {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+#Body2 .txt h1 {
+  color: #c59d5f;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+
+#Body2 .txt h2 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+#Body2 .images {
+  margin: 20px 0;
+}
+
+#Body2 .images .photo img {
+  width: 100%;
+  height: 330px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  #Body2 .images .photo {
+    margin: 20px 0;
+  }
+  #Body2 .images .photo img {
+    width: 100%;
+    height: 278px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  #Body2 .images .photo {
+    margin: 20px 0;
+  }
+  #Body2 .images .photo img {
+    width: 100%;
+    height: 182px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 998px) {
+  #Body2 .images .photo {
+    margin: 20px 0;
+  }
+  #Body2 .images .photo img {
+    width: 100%;
+    height: 182px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 1200px) {
+  #Body2 .images .photo {
+    margin: 20px 0;
+  }
+  #Body2 .images .photo img {
+    width: 100%;
+    height: 244px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+#Body3 {
+  background-color: #e7ede9;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+#Body3 .photo-txt {
+  text-align: center;
+}
+
+#Body3 .photo-txt h1 {
+  color: #ffd000;
+  font-size: 60px;
+  font-family: 'Yesteryear', cursive;
+  margin-top: 20px 0;
+  z-index: 1;
+}
+
+#Body3 .photo-txt p {
+  color: #555555;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-top: 10px 0 10px 0;
+  z-index: 1;
+}
+
+#Body3 .photo-txt button {
+  font-size: 15px;
+  padding: 8px 20px;
+  border: 1px solid #ffd000;
+  background-color: transparent;
+  font-weight: 600;
+  color: #ffd000;
+  z-index: 1;
+}
+
+#Body3 .photo-txt button:hover {
+  background-color: #ffd000;
+  color: white;
+}
+
+#Body3 .photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#Body4 {
+  padding: 100px 0;
+}
+
+#Body4 .photo-txt {
+  text-align: center;
+}
+
+#Body4 .photo-txt img {
+  width: 100%;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#Body4 .photo-txt h1 {
+  margin: 55px 0 0 0;
+  color: black;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+#Body4 .photo-txt p {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #777777;
+}
+
+#Body4 .photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#Footer {
+  background-image: url(https://demo.zozothemes.com/palmplaza/wp-content/uploads/sites/41/2019/10/footer-main-bg-1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+#Footer .txt .txt-icon i {
+  font-size: 14px;
+  color: white;
+}
+
+#Footer .txt .txt-icon i:hover {
+  color: #c59d5f;
+}
+
+#Footer .txt .txt-icon span {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+#Footer .txt img {
+  width: 50%;
+}
+
+#Footer .txt h1 {
+  color: white;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+#Footer .txt h1:hover {
+  color: #c59d5f;
+}
+
+#Footer .txt h2 {
+  color: white;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+#Footer .txt h2:hover {
+  color: #c59d5f;
+}
+
+#Footer .txt span {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+#Footer .txt p {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #c59d5f;
+}
+
+#Footer .txt .photo-text img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+#Footer .txt .photo-text h2 {
+  color: white;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+#Footer .txt .photo-text p {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #c59d5f;
+}
+/*# sourceMappingURL=style.css.map */
